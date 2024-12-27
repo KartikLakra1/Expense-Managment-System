@@ -38,13 +38,13 @@ const Login = () => {
       <div className="login-page ">
         {loading && <Spinner />}
         <div className="row container">
-          <h1>Expsanse Managment System - MERN STACK</h1>
+          <h1>EXPENSE MANAGEMENT SYSTEM</h1>
           <div className="col-md-6">
-            <img src={img} alt="login-img" width={"100%"} height="100%" />
+            <img src={img} alt="login-img"  className="login-image" />
           </div>
           <div className="col-md-4 login-form">
             <Form layout="vertical" onFinish={submitHandler}>
-              <h1>Login Form</h1>
+              <h1>LOGIN</h1>
 
               <Form.Item label="Email" name="email">
                 <Input type="email" required />
