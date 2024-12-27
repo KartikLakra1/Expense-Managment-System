@@ -36,7 +36,7 @@ const Register = () => {
           layout="vertical"
           onFinish={submitHandler}
         >
-          <h2>Register Form</h2>
+          <h2>REGISTERATION</h2>
           <Form.Item label="Name" name="name">
             <Input type="text" required />
           </Form.Item>
@@ -48,7 +48,7 @@ const Register = () => {
           </Form.Item>
           <div className="d-flex justify-content-between">
             <Link to="/login">Already Register? login here!</Link>
-            <button className="btn ">Resgiter</button>
+            <button className="btn ">Register</button>
           </div>
         </Form>
       </div>

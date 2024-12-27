@@ -12,11 +12,17 @@
   width: 30%;
 }
 
+@media screen and (max-width:768px){
+  .register-form{
+    width:80%;
+  }
+}
+
 .register-form h2 {
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
-  color: #b87333;
+  color: black;
 }
 
 .register-form a {

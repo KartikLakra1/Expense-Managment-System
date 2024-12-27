@@ -6,7 +6,7 @@ import Spinner from "../components/Spinner";
 import "../styles/Loginpage.css";
 const Login = () => {
   const img =
-    "https://images.unsplash.com/photo-1593538312308-d4c29d8dc7f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80";
+    "https://www.investopedia.com/thmb/aqxryEXDlWznpQaij72CpAkxqZk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1030831244-4279d87f1272423288e24a9ed9925c80.jpg";
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   //from submit
